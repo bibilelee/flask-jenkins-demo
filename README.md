@@ -36,3 +36,4 @@ docker run -d --name flask-jenkins-demo-container -p 5000:5000 flask-jenkins-dem
 2. Jenkins 所在 ECS 的 5000 端口需要放通安全组
 3. 如果 5000 端口已被占用，可以把 `Jenkinsfile` 里的 `HOST_PORT` 改成别的端口
 # test webhook trigger
+# test smee webhook
